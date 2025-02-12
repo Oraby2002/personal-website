@@ -1,0 +1,69 @@
+/* Contact */
+@import "./mixins.scss";
+.contact {
+  @include twoColum($column-gap: 20rem, $row-gap: 0);
+  align-items: center;
+}
+.contact__description {
+  font-size: var(--font-size-20);
+  line-height: 1.9;
+}
+.contact__email {
+  font-weight: var(--font-weight-bold);
+  margin: 2.5rem 0;
+}
+.contact__socials {
+  display: flex;
+  gap: 2rem;
+}
+
+.contact__social {
+  transition: var(--transition-timing);
+  color: var(--color-text);
+}
+
+.contact__social .social-icon {
+  width: 3rem;
+  height: 3rem;
+  stroke: currentColor;
+  transition: var(--transition-timing);
+}
+
+.toggle__checkbox:checked ~ .contact__socials .contact__social {
+  color: var(--color-green);
+}
+
+.contact__social:hover {
+  transform: scale(1.2);
+  color: var(--color-blue);
+}
+
+.contact__inputs {
+  display: flex;
+  gap: 3rem;
+}
+.contact__input {
+  border: 0;
+  outline: 0;
+  border-bottom: 0.1rem solid var(--color-input-border);
+  background: transparent;
+  flex: 1;
+}
+.contact__textarea {
+  width: 100%;
+  margin-top: 1rem;
+}
+.contact__button {
+  background-color: var(--color-link-bg);
+  color: var(--color-white);
+  padding: 1.7rem 1.8rem;
+  font-weight: var(--font-weight-medium);
+  margin-top: 3.4rem;
+  font-size: var(--font-size-24);
+}
+form:invalid::after {
+  content: "*";
+  font-size: var(--font-size-38);
+  color: var(--color-red);
+}
+/* End Contact */

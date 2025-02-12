@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&amp;family=Raleway:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Mahmoud Samir Oraby</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__loop" autoplay loop muted>
+        <source src="video-loop.mp4" type="video/mp4" />
+      </video>
+      <header class="header">
+        <label for="menu" class="burger-menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input type="checkbox" id="menu" class="burger-menu__checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#Bio" class="navigation__link navigation__Bio">Bio</a>
+            </li>
+            <li>
+              <a href="#Skills" class="navigation__link navigation__Skills"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#Media" class="navigation__link navigation__Media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#Projects" class="navigation__link navigation__Projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#Clients" class="navigation__link navigation__Clients"
+                >My clients</a
+              >
+            </li>
+            <li>
+              <a href="#Contact" class="navigation__link navigation__Contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input type="checkbox" id="toggle" class="toggle__checkbox" />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+      <section id="Bio" class="Bio section">
+        <div class="Bio__data">
+          <h1 class="Bio__heading">
+            👋Hi There , I’M A Passionate Software Engineer
+          </h1>
+          <p class="Bio__objective">
+            My name is <span class="Bio__name">Mahmoud Samir Oraby</span>, a
+            Front-End Developer passionate about creating smooth and engaging
+            user experiences. I have experience with HTML , and CSS , JavaScript
+            , React and expanding into Full Stack Development. <br />
+            🚀 Always learning, building, and sharing tech insights. Feel free
+            to connect with me on
+            <a
+              href="http://www.linkedin.com/in/mahmoud-oraby-2544a2244"
+              class="Bio__Linkedin"
+              >Linkedin</a
+            >
+            ,
+            <a href="https://github.com/Oraby2002" class="Bio__Github"
+              >Github</a
+            >
+            ,
+            <a
+              href="https://www.facebook.com/share/1A3bAPd1uD/?mibextid=wwXIfr"
+              class="Bio__Facebook"
+              >Facebook</a
+            >, and
+            <a
+              href="https://www.instagram.com/mahmoud_3orabiii?igsh=dWk4anV0YmQ0cmts&utm_source=qr"
+              class="Bio__instagram"
+              >instagram.</a
+            >
+          </p>
+          <a href="#Contact" class="Bio__link say-hi-link">Say Hi</a>
+          <a
+            href="./Mahmoud_Oraby_CV.pdf"
+            target="_blank"
+            class="Bio__link find-out-link"
+            >Download Cv. <span class="Bio__arrow"> ↓ </span></a
+          >
+        </div>
+        <div class="Bio__pic-content">
+          <img
+            src="./images/personal-pic1.png"
+            alt="imge of Mahmoud Samir Oraby"
+            class="Bio__pic"
+          />
+        </div>
+      </section>
+      <section id="Skills" class="skills section section__with-bg">
+        <h2 class="h2__heading">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills__years">1years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills__years">1years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills__years">1years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills__years">1years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills__years">1years</span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">SQL</h2>
+            <span class="skills__years">1years</span>
+          </li>
+        </ul>
+      </section>
+      <section id="Media" class="media section">
+        <video class="media__video" poster="images/thumbnail1.jpg" controls>
+          <source src="video1.mp4" type="video/mp4" />
+        </video>
+      </section>
+      <section class="project section" id="Projects">
+        <h2 class="h2__heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="projects__main">
+          <img
+            class="projects__img"
+            src="./images/project1.png"
+            alt=" E-learning"
+          />
+          <div class="projects__data">
+            <h3 class="h3__heading">
+              EduVerse <br />
+              Extenion
+            </h3>
+            <p class="projects__description">
+              EduVerse is a browser tool that enhances online learning by
+              providing easy access to educational resources. It offers an
+              interactive and flexible learning experience for students and
+              teachers, helping to boost knowledge and skills.
+            </p>
+            <a
+              href="https://github.com/Oraby2002/E-learning"
+              class="projects__link"
+              target="_blank"
+              >Github link
+            </a>
+            <!-- <span>-</span>
+            <a href="#" class="projects__link" target="_blank"> Edge link</a> -->
+          </div>
+          <div class="projects__data">
+            <h3 class="h3__heading">
+              Clothing Store <br />
+              Extenion
+            </h3>
+            <p class="projects__description">
+              Clothing Store is a browser tool that enhances online shopping by
+              providing quick access to fashion trends, personalized
+              recommendations, and exclusive deals, making the shopping
+              experience smoother and more convenient.
+            </p>
+            <a
+              href="https://github.com/Oraby2002/clothing-store-javascript"
+              class="projects__link"
+              target="_blank"
+              >Github link</a
+            ><span>- </span>
+            <a
+              href="https://oraby2002.github.io/clothing-store-javascript/"
+              class="projects__link"
+              target="_blank"
+            >
+              Demo link</a
+            >
+          </div>
+          <img
+            class="projects__img"
+            src="./images/project2.jpg"
+            alt="Clothing Store "
+          />
+        </div>
+      </section>
+      <section id="Clients" class="clients section section__with-bg">
+        <h2 class="h2__heading">
+          What My<br />
+          Clients Says.
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Mahmoud is one of the most professional developers I’ve worked
+              with. He has strong front-end skills, learns quickly, and always
+              brings innovative solutions. His ability to collaborate
+              effectively makes him a valuable asset to any project.
+            </p>
+            <p class="clients__opinion">
+              Mahmoud has a true passion for development and demonstrates a
+              solid understanding of the latest front-end technologies. During
+              our time working together, he showcased a remarkable ability to
+              learn and apply new concepts efficiently.
+            </p>
+            <p class="clients__opinion">
+              Working with Mahmoud was a great experience. He listens carefully
+              to project requirements and focuses on delivering a seamless user
+              experience. His commitment to quality and timely delivery truly
+              stands out.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="contact section" id="Contact">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a class="contact__email" href="mailto:mahmoud.eelu.2020@gmail.com "
+            >Mahmoud_Oraby@gmail.com</a
+          >
+          <div class="contact__socials">
+            <!-- Facebook -->
+            <a
+              href="https://www.facebook.com/share/1A3bAPd1uD/?mibextid=wwXIfr"
+              class="contact__social"
+            >
+              <svg class="social-icon" viewBox="0 0 24 24">
+                <path
+                  d="M18 2h-3a5 5 0 0 0-5 5v3H6v4h4v8h4v-8h4l1-4h-5V7a1 1 0 0 1 1-1h3z"
+                />
+              </svg>
+            </a>
+
+            <!-- Twitter -->
+            <a href="https://x.com/m_3orabii?s=21" class="contact__social">
+              <svg class="social-icon" viewBox="0 0 24 24">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53A4.48 4.48 0 0 0 16 2a4.48 4.48 0 0 0-4.5 4.5c0 .35.04.7.12 1.03A12.94 12.94 0 0 1 3 4s-4 9 5 13a13.36 13.36 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                />
+              </svg>
+            </a>
+
+            <!-- GitHub -->
+            <a href="https://github.com/Oraby2002" class="contact__social">
+              <svg class="social-icon" viewBox="0 0 24 24">
+                <path
+                  d="M9 19c-5 2-5-3-7-3m14 6v-3.87A3.37 3.37 0 0 0 17.5 13c3.5 0 4.5 2.17 4.5 5v4"
+                />
+                <path d="M9 12a3 3 0 0 1 6 0" />
+              </svg>
+            </a>
+
+            <!-- Instagram -->
+            <a
+              href="https://www.instagram.com/mahmoud_3orabiii?igsh=dWk4anV0YmQ0cmts&utm_source=qr"
+              class="contact__social"
+            >
+              <svg class="social-icon" viewBox="0 0 24 24">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37a4 4 0 1 1-4.73 4.73A4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+
+            <!-- LinkedIn -->
+            <a
+              href="http://www.linkedin.com/in/mahmoud-oraby-2544a2244"
+              class="contact__social"
+            >
+              <svg class="social-icon" viewBox="0 0 24 24">
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v6h-4v-6a2 2 0 0 0-4 0v6H8v-6a6 6 0 0 1 6-6z"
+                />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContent">
+          <h2 class="h2__heading">
+            Let’s Work <br />
+            Together!
+          </h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                type="text"
+                class="contact__input"
+                placeholder="Full Name"
+                required
+                name="fullName"
+              />
+              <input
+                type="tel"
+                class="contact__input"
+                placeholder="Phone No."
+                pattern="^(\+?[1-9]\d{1,14}|0\d{8,14})$"
+                required
+                name="telephone"
+              />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="your message"
+              required
+            ></textarea>
+            <input type="submit" class="contact__button" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">© 2025 by Mohmoud Samir Oraby</footer>
+    </div>
+  </body>
+</html>

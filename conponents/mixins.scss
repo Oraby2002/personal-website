@@ -1,0 +1,16 @@
+@mixin twoColum($column-gap: 0, $row-gap: 0) {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: $column-gap;
+  row-gap: $row-gap;
+}
+@mixin fontsize(
+  $grid-column: 0,
+  $margin-bottom: 0,
+  $font-size: 0,
+  $font-weight: 0
+) {
+  font-size: $font-size;
+  font-weight: $font-weight;
+  grid-column: $grid-column;
+  margin-bottom: $margin-bottom;
+}
